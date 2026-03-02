@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         <header>
-            <h1>🎓 College Credit Card Simulator</h1>
+            <h1>College Credit Card Simulator</h1>
             <p class="subtitle">Make it through a month of college life!</p>
         </header>
 
@@ -23,7 +23,7 @@
                 <div class="stat-label">Cash</div>
                 <div class="stat-value" id="cash">$500</div>
             </div>
-            <div class="stat-card">
+            <div class="stat-card savings">
                 <div class="stat-label">Savings</div>
                 <div class="stat-value" id="savings">$0</div>
             </div>
@@ -41,13 +41,13 @@
         </div>
 
         <div class="achievements-panel" id="achievementsPanel">
-            <h3>🏆 Achievements</h3>
+            <h3>Achievements</h3>
             <div id="achievementsList"></div>
         </div>
 
         <div class="daily-goal" id="dailyGoal" style="display: none;">
             <div class="goal-content">
-                <span class="goal-icon">🎯</span>
+                <span class="goal-icon">GOAL</span>
                 <span class="goal-text" id="goalText"></span>
                 <span class="goal-reward" id="goalReward"></span>
             </div>
@@ -60,14 +60,14 @@
                     <span class="event-day">Day <span id="eventDay">1</span></span>
                 </div>
                 <div class="event-content">
-                    <h2 id="eventTitle">Welcome to College!</h2>
-                    <p id="eventDescription">You're starting your first month of college with $500 in cash and a credit card with a $1,000 limit. Make smart decisions!</p>
+                    <h2 id="eventTitle">Welcome</h2>
+                    <p id="eventDescription">Welcome to your first month of college! You've got $500 in your pocket and a credit card with a $1,000 limit. Time to see if you can make it through the month without going broke... good luck!</p>
                     <div id="eventOptions" class="event-options"></div>
                 </div>
             </div>
 
             <div class="transaction-log" id="transactionLog">
-                <h3>Transaction History</h3>
+                <h3>What's Been Happening</h3>
                 <div id="logEntries"></div>
             </div>
         </div>
@@ -79,7 +79,7 @@
 
         <div class="game-over" id="gameOver" style="display: none;">
             <div class="game-over-content" id="gameOverContent">
-                <h2 id="gameOverTitle">Month Complete! 🎉</h2>
+                <h2 id="gameOverTitle">Month Complete</h2>
                 <div class="final-stats">
                     <p>Final Credit Score: <strong id="finalScore">700</strong></p>
                     <p>Final Balance: <strong id="finalBalance">$0</strong></p>
